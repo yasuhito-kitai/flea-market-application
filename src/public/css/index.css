@@ -1,0 +1,43 @@
+.tab__group{
+    display: flex;
+}
+
+.item__content__group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item-image{
+    width: 30rem;
+
+}
+
+.item-image img{
+    width: 100%;
+}
+
+.item__content__group:after {
+    content: "";
+    display: block;
+    width: 30rem;
+    height: 0;
+    margin: ;
+}
+
+.item__content__group:before {
+    content: "";
+    display: block;
+    width: 30rem;
+    height: 0;
+    order: 1;
+    margin: ;
+}
+
+.item__content__blank {
+    content: "";
+    display: block;
+    width: 30rem;
+    height: 0;
+    margin: ;
+}
