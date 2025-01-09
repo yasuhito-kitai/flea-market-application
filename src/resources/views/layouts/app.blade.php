@@ -12,7 +12,9 @@
 
 <body>
     <header class="header">
-        <div class="logo">ロゴ画像</div>
+        <div class="logo">
+            <img src="img\logo.svg">
+        </div>
 
         <form class="search-form" action="/search_shop" method="get">
             <div class="search-box">
