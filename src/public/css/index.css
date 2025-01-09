@@ -8,13 +8,21 @@
     justify-content: space-around;
 }
 
-.item-image{
-    width: 30rem;
-
+.image__box{
+    position: relative;
+    width: 100%;
 }
 
-.item-image img{
-    width: 100%;
+.image__box__item-image{
+    width: 30rem;
+}
+
+.favorite__off,
+.favorite__on{
+    position: absolute;
+    width: 5rem;
+    top: 0;
+    right: 0;
 }
 
 .item__content__group:after {
@@ -41,3 +49,4 @@
     height: 0;
     margin: ;
 }
+
